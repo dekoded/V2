@@ -1,0 +1,107 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#mainCont{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#divider{
+	position: absolute;
+	width: 100%;
+	height: 15px;
+	margin-top: 210px;
+	background-image: url("images/bar.jpg");
+	background-image: repeat-y;
+	background-size: 70px;
+    z-index: 1;
+
+   }
+
+#headContainer{
+	position: absolute;
+	margin-top: 15px;
+}
+
+
+#nav{
+	position: absolute;  
+	width: 100%;
+	height: 35px;
+	margin-top: -215px;
+	margin-left: 325px;
+}
+
+#nav {                         
+
+}
+
+#nav ul{				
+	margin-left: -55px;
+
+}
+
+#nav ul li{							
+	display: inline;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-size: 20px;
+	border-right: 1px solid	#000000;
+	border-left: 1px solid	#000000;
+}
+
+#social{
+	position: absolute;
+	display: inline;
+	width: 200px;
+	margin-top: -200px;
+	margin-left: 800px;
+}
+
+
+#nav ul li a{
+	text-decoration: none;
+}
+
+#nav ul li:hover{
+	background-color: #6ebfe4;
+}
+
+/*
+Index Style
+ */
+
+#mainContainer{                         
+	position: absolute;
+	height: 600px;
+}
+
+#greet{
+	text-align: center;
+}
+
+#carousel{
+	width: 700px;
+	height: 350px;
+	margin-left: 110px;
+	border-style: solid;
+}
+
+
+/*
+ Service Style.
+ */
+
+#bodyContainer{
+	position: relative;
+}
+#servs{
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	margin-top: 300px;
+}

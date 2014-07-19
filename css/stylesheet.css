@@ -1,12 +1,14 @@
 body{
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto; 
+	background-color: #CAF7FC;
 }
 
 #mainCont{
 	position: relative;
 	width: 900px;
 	margin: 0 auto;
+
 }
 
 #divider{
@@ -14,16 +16,19 @@ body{
 	width: 100%;
 	height: 15px;
 	margin-top: 210px;
-	background-image: url("images/bar.jpg");
+	background-image: url("../images/bar.jpg");
 	background-image: repeat-y;
 	background-size: 70px;
     z-index: 1;
 
    }
 
+
 #headContainer{
 	position: absolute;
 	margin-top: 15px;
+	
+
 }
 
 
@@ -92,16 +97,274 @@ Index Style
 
 
 /*
+
  Service Style.
+
  */
 
 #bodyContainer{
+
+}
+
+.shadow{
+  -moz-box-shadow:    3px 3px 5px 5px #4F4B4B;
+  -webkit-box-shadow: 3px 3px 5px 5px #4F4B4B;
+   box-shadow:        3px 3px 5px 5px #4F4B4B;
+}
+
+#servDesc{
+	position: absolute;
+	margin-top: 230px;
+	width: 100%;
+	height: 200px;
+
+}
+
+#servDesc h1{
+	text-align: center;
+}
+#servDesc h3{
+	text-align: center;
+}
+
+#servBox{
+	position: absolute;
+	width: 100%;	
+	height: 700px;
+	margin-top: 440px;
+
+}
+
+
+/********Row One************/
+
+#servRowOne{
+	height: 300px;
+	width: 900px;
 	position: relative;
 }
-#servs{
+
+#servOneWrapper{
+	position: absolute;	
+	padding: 10px 50px 0px 10px
+}
+
+#servDescOne{
+	margin-top: 180px;
+	text-align: center;
+}
+
+#servOne{
+	width: 200px;
+	height: 300px;
+	background-color: white;
+	border-radius: 10px;
+	border-width: 6px;
+	border-style: inset;
+
+}
+
+#servWindowOne{
 	position: absolute;
+	width: 190px;
+	height: 170px;
+	border-style: solid;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-image: url("../images/service/01.jpg");
+	background-size: 220px;
+	border-radius: 10px;
+}
+
+#servDescTwo{
+	margin-top: 180px;
+	text-align: center;
+}
+
+#servTwoWrapper{
+	position: absolute;
+	margin-left: 350px;
+	padding: 10px 0px 0px 0px;
+
+	
+}
+
+#servTwo{
 	width: 200px;
 	height: 300px;
 	border-style: solid;
-	margin-top: 300px;
+	background-color: white;
+	border-radius: 10px;
+	border-style: inset;
+	border-width: 6px;
+
+}
+
+#servWindowTwo{
+	position: absolute;
+	width: 190px;
+	height: 170px;
+	border-style: solid;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-image: url("../images/service/01.jpg");
+	background-size: 220px;
+	border-radius: 10px;
+}
+
+#servDescThree{
+	margin-top: 180px;
+	text-align: center;
+}
+
+#servThreeWrapper{
+	position: absolute;
+	margin-left: 680px;
+	padding: 10px 10px 0px 0px
+}
+
+#servThree{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	background-color: white;
+	border-radius: 10px;
+	border-style: inset;
+	border-width: 6px;
+}	
+
+#servWindowThree{
+	position: absolute;
+	width: 190px;
+	height: 170px;
+	border-style: solid;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-image: url("../images/service/01.jpg");
+	background-size: 220px;
+	border-radius: 10px;
+}
+/********Row Two************/
+
+#servRowTwo{
+	height: 300px;
+	width: 900px;
+	padding-top: 50px;
+	position: relative;
+}
+
+#servDescFour{
+	margin-top: 180px;
+	text-align: center;
+}
+
+#servFourWrapper{
+	position: absolute;	
+	padding-right: 50px;
+	padding: 0px 0px 0px 10px;
+}
+
+#servFour{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	background-color: white;
+	border-radius: 10px;
+	border-style: inset;
+	border-width: 6px;
+}
+
+#servWindowFour{
+	position: absolute;
+	width: 190px;
+	height: 170px;
+	border-style: solid;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-image: url("../images/service/01.jpg");
+	background-size: 220px;
+	border-radius: 10px;
+}
+
+#servDescFive{
+	margin-top: 180px;
+	text-align: center;
+}
+#servFiveWrapper{
+	position: absolute;
+	margin-left: 350px;
+	
+}
+
+#servFive{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	background-color: white;
+	border-radius: 10px;
+	border-style: inset;
+	border-width: 6px;
+
+}
+
+#servWindowFive{
+	position: absolute;
+	width: 190px;
+	height: 170px;
+	border-style: solid;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-image: url("../images/service/01.jpg");
+	background-size: 220px;
+	border-radius: 10px;
+}
+
+#servDescSix{
+	margin-top: 180px;
+	text-align: center;
+}
+
+#servSixWrapper{
+	position: absolute;
+	margin-left: 680px;
+}
+
+#servSix{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	background-color: white;
+	border-radius: 10px;
+	border-style: inset;
+	border-width: 6px;
+}	
+
+#servWindowSix{
+	position: absolute;
+	width: 190px;
+	height: 170px;
+	border-style: solid;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-image: url("../images/service/01.jpg");
+	background-size: 220px;
+	border-radius: 10px;
+}
+
+#servList{
+	margin-top: 30px;
+	padding-top: 25px;
+
+}
+
+#servList h2{
+	text-align: center;
+}
+
+#servList li{
+	list-style-type: none;
+}
+
+#servList li ul{
+	display: inline;
 }
